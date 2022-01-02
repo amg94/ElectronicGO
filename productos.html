@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>ElectronicGO | Alan Godoy</title>
+
+	<script src="https://kit.fontawesome.com/a9b6896054.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="container-fluid top">
+		<header>
+			<div class="fixed-top shadow-lg">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon m-auto"></span>
+					</button>
+					<a class="navbar-brand" href="#top"><img src="media/Logo.svg" width="30" height="30" alt=""
+							loading="lazy"></a>
+					<button id="carrito" class="nav-item btn align-self-md-center">
+						<span id="contador" class="contador align-self-center">0</span>
+						<img src="media/Carrito.svg" width="30" height="30" alt="" loading="lazy">
+					</button>
+					<div id="my-nav" class="collapse navbar-collapse">
+						<ul class="navbar-nav mr-auto container-fluid justify-content-center">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">INICIO</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="productos.html">PRODUCTOS</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="billetera.html">BILLETERA</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contacto.html">CONTACTO</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section class="container mb-4">
+				<div class="row">
+					<div class="col-12 hero-image">
+						<div class="hero-image">
+							<img src="media/header.jpg" alt="Bienvenido a Electronic-GO">
+						</div>
+					</div>
+				</div>
+				<div class="row text-white lead">
+					<div class="col-12 text-center">
+						<h1 class="pb-3">BIENVENIDOS A ELECTRONIC-GO</h1>
+					</div>
+				</div>
+			</section>
+			<section class="container">
+				<div class="row justify-content-center bg-dark text-white py-2 mb-4">
+					<h2 class="my-auto py-1">CATEGORÍAS</h2>
+				</div>
+				<div class="row justify-content-around pb-3">
+					<a href="productos.html" class="col-2 col-md-1 p-md-2 btn categoria" data-filter="todos"
+						role="button"><img src="media/Categoria-01.svg" alt="Mostrar todos los productos"></a>
+					<a href="productos.html" class="col-2 col-md-1 p-md-2 btn categoria" data-filter="video"
+						role="button"><img src="media/Categoria-02.svg" alt="Mostrar placas de video"></a>
+					<a href="productos.html" class="col-2 col-md-1 p-md-2 btn categoria" data-filter="motherboard"
+						role="button"><img src="media/Categoria-06.svg" alt="Mostrar motherboards"></a>
+					<a href="productos.html" class="col-2 col-md-1 p-md-2 btn categoria" data-filter="procesadores"
+						role="button"><img src="media/Categoria-04.svg" alt="Mostrar procesadores"></a>
+					<a href="productos.html" class="col-2 col-md-1 p-md-2 btn categoria" data-filter="ram"
+						role="button"><img src="media/Categoria-03.svg" alt="Mostrar memorias RAM"></a>
+					<a href="productos.html" class="col-2 col-md-1 p-md-2 btn categoria" data-filter="cooler"
+						role="button"><img src="media/Categoria-05.svg" alt="Mostrar coolers"></a>
+				</div>
+			</section>
+			<section class="container">
+				<div class="row">
+					<h2 class="subtitulos">CATÁLOGO</h2>
+				</div>
+				<div id="catalogo" class="row">
+
+				</div>
+				<div id="modalCarrito" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+
+				</div>
+				<div id="modalGeneral" class="modal fade" tabindex="-1">
+
+				</div>
+			</section>
+		</main>
+		<footer id="navB" class="fixed-bottom">
+
+		</footer>
+	</div>
+
+	<!-- Scripts -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

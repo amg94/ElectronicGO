@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>ElectronicGO | Alan Godoy</title>
+
+	<script src="https://kit.fontawesome.com/a9b6896054.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="container-fluid top">
+		<header>
+			<div class="fixed-top shadow-lg">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon m-auto"></span>
+					</button>
+					<a class="navbar-brand" href="#top"><img src="media/Logo.svg" width="30" height="30" alt=""
+							loading="lazy"></a>
+					<button id="carrito" class="nav-item btn align-self-md-center">
+						<span id="contador" class="contador align-self-center">0</span>
+						<img src="media/Carrito.svg" width="30" height="30" alt="" loading="lazy">
+					</button>
+					<div id="my-nav" class="collapse navbar-collapse">
+						<ul class="navbar-nav mr-auto container-fluid justify-content-center">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">INICIO</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="productos.html">PRODUCTOS</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="billetera.html">BILLETERA</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contacto.html">CONTACTO</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<section class="container mb-4">
+				<div class="row">
+					<div class="col-12 hero-image">
+						<div class="hero-image">
+							<img src="media/header.jpg" alt="Bienvenido a Electronic-GO">
+						</div>
+					</div>
+				</div>
+				<div class="row text-white lead">
+					<div class="col-12 text-center">
+						<h1 class="pb-3">BIENVENIDOS A ELECTRONIC-GO</h1>
+					</div>
+				</div>
+			</section>
+			<section class="container">
+				<div class="row justify-content-center bg-dark text-white py-2 mb-4">
+					<h2 class="my-auto py-1">BILLETERA</h2>
+				</div>
+				<div class="row justify-content-around mb-5">
+					<button class="credito__button btn btn-light shadow text-danger font-weight-bold col-5 py-3"
+						type="button">
+						CRÉDITO
+					</button>
+					<button class="debito__button btn btn-light shadow text-danger font-weight-bold col-5 py-3"
+						type="button">
+						DÉBITO
+					</button>
+				</div>
+				<div class="row credito__form" style="display: block;">
+					<form class="text-center border border-light mb-4 col" action="guardado.html" method="post"
+						accept-charset="UTF-8" enctype="multipart/form-data">
+
+						<p class="h4 mb-4">CRÉDITO</p>
+
+						<input type="text" class="form-control mb-4" placeholder="Nombre" required>
+
+						<input type="email" class="form-control mb-4" placeholder="E-mail" required>
+
+						<input type="tel" class="form-control mb-4" placeholder="Teléfono" required>
+
+						<input type="number" class="form-control mb-4" placeholder="N° de tarjeta" required>
+
+						<input type="number" class="form-control mb-4" placeholder="PIN" required>
+
+						<input type="month" class="form-control mb-4" required>
+
+						<button class="btn btn-info btn-block" type="submit">Guardar</button>
+
+					</form>
+				</div>
+				<div class="row debito__form" style="display: none;">
+					<form class="text-center border border-light mb-4 col" action="guardado.html" method="post"
+						accept-charset="UTF-8" enctype="multipart/form-data">
+
+						<p class="h4 mb-4">DÉBITO</p>
+
+						<input type="text" class="form-control mb-4" placeholder="Nombre" required>
+
+						<input type="email" class="form-control mb-4" placeholder="E-mail" required>
+
+						<input type="tel" class="form-control mb-4" placeholder="Teléfono" required>
+
+						<input type="number" class="form-control mb-4" placeholder="N° de tarjeta" required>
+
+						<input type="number" class="form-control mb-4" placeholder="PIN" required>
+
+						<input type="month" class="form-control mb-4" required>
+
+						<button class="btn btn-info btn-block" type="submit">Guardar</button>
+					</form>
+				</div>
+				<div id="modalCarrito" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+
+				</div>
+				<div id="modalGeneral" class="d-none"></div>
+				<div id="catalogo" class="d-none"></div>
+			</section>
+		</main>
+		<footer id="navB" class="fixed-bottom">
+
+		</footer>
+	</div>
+
+	<!-- Scripts -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

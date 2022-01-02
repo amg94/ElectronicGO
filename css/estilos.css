@@ -1,0 +1,224 @@
+.fixed-top{
+    padding: 0;
+}
+
+.hero-image img {
+    width: 100%;
+    padding: 0;
+}
+
+.hero-image {
+    padding: 0;
+}
+
+.hero {
+    padding: 0;
+}
+
+.lead {
+    background-color: #000000;
+}
+
+header>div>nav:last-child>div>div>span>img {
+    height: 17px;
+    width: 17px;
+}
+
+.producto p {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+.producto>a:first-child {
+    width: 12em
+}
+
+.descuento {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+.modal-body>figure>img {
+    width: 100%;
+}
+
+.imagen {
+    width: 60%;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+.subtitulos {
+    font-size: 0;
+}
+.modalF {
+    border: none;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        padding-top: 3.8em;
+        padding-bottom: 2em;
+    }
+
+    header>div>nav:last-child>div {
+        width: 70%;
+    }
+
+    header li {
+        margin-left: 0.75em;
+    }
+
+    header>div:first-child>nav>div>button:nth-child(2) {
+        order: -1
+    }
+
+    .navbar-brand {
+        margin-left: 2rem;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    body {
+        padding-top: 4em;
+        padding-bottom: 2em;
+    }
+
+    header>div>nav:last-child>div {
+        width: 50%;
+    }
+
+    main {
+        padding-top: 4em;
+    }
+
+    header li {
+        margin-left: 1.8em;
+    }
+
+    header>div:first-child>nav>div>button:nth-child(2) {
+        order: -1
+    }
+
+    .navbar-brand {
+        margin-left: 2.4rem;
+    }
+
+    main>section:first-child {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        padding-top: 3.3em;
+        padding-bottom: 3em;
+    }
+
+    main {
+        padding-top: 0.5em;
+    }
+
+    .carousel2 {
+        display: none;
+        ;
+    }
+
+    header li {
+        padding: 0 1.5%;
+    }
+
+    header>div>nav>button:nth-child(3) {
+        order: 3;
+    }
+
+    #modalProducto {
+        position: fixed;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    #modalProducto>div>div>h3,
+    #modalProducto>div>div>p {
+        margin: 0;
+        text-align: center;
+    }
+
+    #modalProducto>div>div>p:nth-child(2) {
+        font-size: 90%;
+    }
+
+    #modalProducto>div>div>p:nth-child(3) {
+        font-size: 20px;
+    }
+
+    #modalProducto>div>img {
+        padding: 0;
+        margin: 0;
+        width: 50%;
+    }
+
+    #cartaDescripcion {
+        width: 50vw;
+        height: 65vh;
+    }
+
+    #cartaDescripcion>div>h5 {
+        font-size: 100%;
+        border-top: none;
+    }
+
+    #modalProducto>div:first-child {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    #modalProducto>div:first-child>div {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    #modalProducto>div:first-child>div>button:nth-child(4) {
+        margin: 0 0 0 0;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+}
+

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>ElectronicGO | Alan Godoy</title>
+
+    <script src="https://kit.fontawesome.com/a9b6896054.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid top">
+        <header>
+            <div class="fixed-top shadow-lg">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon m-auto"></span>
+                    </button>
+                    <a class="navbar-brand" href="#top"><img src="media/Logo.svg" width="30" height="30" alt=""
+                            loading="lazy"></a>
+                    <button class="nav-item btn align-self-md-center" id="carrito">
+                        <span class="contador align-self-center">0</span>
+                        <img src="media/Carrito.svg" width="30" height="30" alt="" loading="lazy">
+                    </button>
+                    <div id="my-nav" class="collapse navbar-collapse">
+                        <ul class="navbar-nav mr-auto container-fluid justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="billetera.html">BILLETERA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="container mb-4">
+				<div class="row">
+					<div class="col-12 hero-image">
+						<div class="hero-image">
+							<img src="media/header.jpg" alt="Bienvenido a Electronic-GO">
+						</div>
+					</div>
+				</div>
+				<div class="row text-white lead">
+					<div class="col-12 text-center">
+						<h1 class="pb-3">BIENVENIDOS A ELECTRONIC-GO</h1>
+					</div>
+				</div>
+			</section>
+            <section class="container mb-5">
+                <div class="row justify-content-center bg-dark text-white py-2 mb-4">
+                    <h2 class="my-auto py-1">CONTACTO</h2>
+                </div>
+                <div class="row justify-content-around">
+                    <button type="button" class="btn btn-secondary redes col-2 py-3 shadow" data-toggle="modal"
+                        data-target="#Alumno"><i class="fas fa-user-alt"></i>
+                    </button>
+                    <div class="modal fade" id="Alumno" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header border-danger">
+                                    <h5 class="modal-title">Datos del alumno</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <figure><img src="media/Alumno.jpg" alt="Alumno Alan Maximiliano Godoy"></figure>
+                                    <p><strong>Alumno:</strong> Alan Maximiliano Godoy</p>
+                                    <p><strong>Email:</strong> alan.godoy@davinci.edu.ar</p>
+                                    <p><strong>Carrera:</strong> Diseño & Desarrollo Web</p>
+                                    <p><strong>Materia:</strong> Interacción con dispositivos móviles</p>
+                                    <p><strong>Comisión</strong> Turno noche B</p>
+                                    <p><strong>Tipo de entrega:</strong> Final</p>
+                                </div>
+                                <div class="modal-footer border-top border-danger">
+                                    <button type="button" class="btn btn-primary mx-auto"
+                                        data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://www.instagram.com/?hl=es-la" target="_blank"
+                        class="btn redes col-2 py-3 shadow btn-light"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank" class="btn redes col-2 py-3 shadow btn-light"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank" class="btn redes col-2 py-3 shadow btn-light"><i
+                            class="fab fa-youtube"></i></a>
+                </div>
+            </section>
+            <section class="container">
+                <div class="row card card-body mt-5" style="display: block;">
+                    <h4 class="text-center col-12 pb-4 mt-3 border-bottom border-danger">Hemos recibido su consulta
+                        exitosamente.</h4>
+                        <a href="contacto.html" class="btn btn-info col-12 mb-3 mt-3">Volver a contacto</a>
+                </div>
+                <div id="modalCarrito" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+
+				</div>
+            </section>
+        </main>
+        <footer id="navB" class="fixed-bottom">
+
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
